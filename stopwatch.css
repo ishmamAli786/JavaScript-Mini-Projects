@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    text-align: center;
+    margin-top: 280px;
+}
+h1{
+    display:inline-block;
+    color:black;
+    width: 70px;
+    background-color: white;
+}
+h2{
+    color:white;
+}
