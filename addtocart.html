@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add To Cart</title>
+    <style>
+        #cart{
+            height:200px;
+            width:300px;
+            background-color: orange;
+            margin-left: 30px;
+        }
+        .main{
+            display:flex;
+        }
+    </style>
+</head>
+<body class="main">
+    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" width="100" id="img">
+    <h6 id="shoe">Branded Shoes</h6>
+    <span id="rupee">Rs:3000</span>
+    <br>
+    <button onclick="addToCart()">AddtoCart</button>
+    <div id="cart">
+        <img src="" id="cart-img">
+        <h6 id="cart-name"></h6>
+        <span id="cart-price"></span>
+    </div>
+</body>
+<script src="addtocart.js"></script>
+</html>
