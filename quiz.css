@@ -1,0 +1,9 @@
+fieldset{
+    border-radius: 2em;
+    text-align: justify;
+}
+#result{
+    background-color: green;
+    color:white;
+    font-size: 50px;
+}
