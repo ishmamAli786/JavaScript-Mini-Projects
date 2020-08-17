@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bmi Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="bmicalculator.css">
+</head>
+<body>
+<div class="container">
+        <div class="card">
+            <div class="card-header text-center">
+                BMI Calculator
+            </div>
+            <div class="card-body">
+                <form class="w-50 m-auto" onsubmit="return false">
+                    <div class="form-group">
+                        <label>Weight:</label>
+                        <input type="number" name="" id="Weight" placeholder="Weight in Kg" class="form-control" requird>
+                    </div>
+                    <div class="form-group">
+                        <label>height:</label>
+                        <input type="number" name="" id="Height" placeholder="Height in ft" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>BMI Value:</label>
+                        <input type="number" name="" id="bmivalue" class="form-control">
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-success" onclick="getBmiValue()">Check Bmi Value</button>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer text-center">
+                A Healthy BMI Ranges Between 19 and 25.
+            </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+<script src="bmicalculator.js"></script>
+</html>
