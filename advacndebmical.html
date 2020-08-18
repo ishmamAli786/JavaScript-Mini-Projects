@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advacne BMI Calculator</title>
+</head>
+<body>
+    <script>
+    let mark={
+        fullName:'Mark',
+        mass:80,
+        height:2.72,
+        calBmi:function(){
+            this.bmi=this.mass/(this.height*this.height);
+            return this.bmi;
+        }
+    }
+    console.log("mark : "+mark.calBmi());
+    let john={
+        fullName:'John',
+        mass:80,
+        height:2.72,
+        calBmi:function(){
+            this.bmi=this.mass/(this.height*this.height);
+            return this.bmi;
+        }
+    }
+    console.log("john : "+john.calBmi());
+    if(mark.bmi>john.bmi){
+        console.log(mark.fullName+"Has Higher BMI "+ mark.bmi)
+    }
+    else if(mark.bmi<john.bmi){
+        console.log(john.fullName+"Has Higher BMI "+ mark.bmi)
+    }
+    else{
+        console.log(john.fullName+" And "+mark.fullName+" Has Same BMI Value")
+    }
+</script>
+</body>
+</html>
